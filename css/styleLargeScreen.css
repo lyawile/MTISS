@@ -1,0 +1,314 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-May-2015, 16:38:32
+    Author     : Hassan Lyawile and Rashid Ramadhan
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    /*font-family: Tahoma;*/
+    //background-color: #f5f5f5;
+    /*font-family: Tahoma;*/
+    color:#464646 ;
+    background-color: #f5f5f5;
+}
+body a {
+    color:#464646;
+}
+.main-wrapper {
+    position: relative;
+    width: 960px;
+    min-height: 600px;
+    /*background-color: lightblue;*/ 
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: #ffffff; 
+    border-top: 3px solid #3a3838;
+    box-shadow: 0px 0px 1px black;
+
+}
+.header h3{
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.header .contacts-home {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1px black;
+    border-top: 1px solid #6d6a6a;
+
+}
+.admin{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    border-radius: 2px;
+    /*border: 1px solid black;*/
+    background-color: #3a3838;
+    top: -15px;
+    right: 30px;
+    text-align: center;
+}
+.admin a {
+    color: #f9f1f1;
+    text-decoration: none;
+}
+.navigation ul{
+    margin: 0px;
+    margin-left: 3px;
+    padding: 0px;
+    height: 40px;
+}
+.navigation ul li {
+    float: left;
+    list-style: none;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+
+}
+.news{
+    width: 315px;
+    background-color: #ffffff;
+    float: left;
+    // min-height:300px;
+    box-shadow: 0px 0px 1px black;
+
+}
+.slider{
+    height: 300px;
+    width: 637.5px;
+    margin-left: 7.5px;
+    float: left;
+    box-shadow: 0px 0px 1px black;
+    border-top: 1px solid #6d6a6a;
+
+}
+.main-content_wrapper{
+    min-height: 300px;
+    width: 637.5px;
+    margin-left: 7.5px;
+    background: #ffffff;
+    float: left;
+    box-shadow: 0px 0px 1px black;
+    border-top: 1px solid #6d6a6a;
+}
+.main-content_wrapper p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.loadMore{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    bottom:0px;
+    background-color: #ffffff;
+    border-top: 1px solid grey;
+
+}
+.loadMore a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.loadMore a:hover{
+    background-color: #f5f5f5;
+}
+.box-title{
+    width: 100%;
+    height: 40px;
+    background-image: url(../images/bg.png);
+    padding:0px;
+    line-height: 40px;
+    border-top: 1px solid #6d6a6a;
+}
+.box-title p{
+    margin: 0px;
+    color: #3f3c3c;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+.content-box p{
+    margin: 0px;
+    padding: 20px;
+    text-align: justify;
+}
+.content-box ul{
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+.content-box ul li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-left: 10px;
+
+}
+.content-box ul li a{
+    text-decoration: none;
+
+}
+.content1 {
+    position: relative;
+    width: 315px;
+    min-height: 300px;    
+    background: #ffffff;
+    float: left;
+    box-shadow: 0px 0px 1px black;
+
+}
+.page_headings{
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.long-line{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70px;
+    height: 3px;
+    clear: both;
+    background-color: #3a3838;
+}
+
+.content2 {
+    position: relative;
+    width: 315px;
+    min-height: 300px;
+    background: #ffffff;
+    float: left;
+    margin-left: 7.5px;
+    box-shadow: 0px 0px 1px black;
+
+
+}
+.content3 {
+    position: relative;
+    width: 315px;
+    min-height: 300px;
+    background: #ffffff;
+    float: left;
+    margin-left: 7.5px;
+    box-shadow: 0px 0px 1px black;
+
+    /*border-bottom: 3px solid black;*/
+
+}
+.readMore{
+    clear: both;
+    width: 100%;
+}
+
+/*.readMore:hover{
+    background-color: #ccc;
+}*/
+.RealContents{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: grey;
+}
+.footer{
+    width: 100%;
+    clear: both;
+    height: 60px;
+    background-color:#3a3838;
+    box-shadow: 0px 0px 1px black;
+    color: #cbc1c6;
+}
+.footer p{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin: 0px;
+}
+.separator{
+    height: 6px;
+    clear: both;
+}
+.address {
+    float: left;
+    width: 33.3%;
+}
+.email {
+    float: left;
+    width: 33.3%;
+}
+.phone {
+    float: left;
+    width: 33.3%;
+}
+.map{
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/loadmap.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.address h3, .phone h3, .email h3{
+    padding-left: 10px; 
+}
+.contact_us {
+    margin-top: 10px;
+    width: 90%;
+    border-top: 1px solid #c0cdc9; 
+    margin-left: 10px;
+}
+.contact_us table{
+    width: 100%;
+}
+.contact_us textArea{
+    width:400px ; 
+    min-height: 200px;
+    max-width: 400px; 
+}
+.contact_us input[type="text"], .contact_us input[type="email"]{
+    width: 300px;
+    height: 25px;
+}
+.contact_us textArea,.contact_us input[type="text"], .contact_us input[type="email"] {
+    /*font-family: Tahoma;*/
+    color:#464646 ;
+    font-size: 15px;
+    border: 1px solid #c0cdc9;
+}
+.contact_us table submit {
+    width: 100%;
+}
+.button{
+    width: 100px;
+    height: 25px;
+    margin-bottom: 40px;
+}
+.phone p,.email p,.address p{
+    padding: 0px;
+    padding-left: 10px;
+}
