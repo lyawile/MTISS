@@ -4,6 +4,8 @@
 */
 .main-wrapper{
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 .slider{
     width: 100%;
@@ -39,9 +41,69 @@ display: none;
     width: 100%;
     height: 100%;
 }
-footer{
+.footer{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+    clear: both;
+}
+.footer p{
+ 
+}
+
+.separator{
+    height:2px;
+}
+.main-content_wrapper{
     width: 100%;
 }
-.separator{
+.main-content_wrapper p{
+    padding: 20px;
+    text-align: justify;
+}
+.navigation {
     display: none;
+}
+.header{
+    display: none;
+}
+.smallTitle{
+    display: block;
+}
+.fees-table{
+   display: none;
+}
+.footer{
+    /*display: none;*/
+}
+.map{
+    display: none;
+}
+.address{
+    width: 100%;
+    float: none;
+}
+.phone{
+    width: 100%;
+    float: none;
+}
+.email{
+    width: 100%;
+    float: none;
+}
+.contact_us textArea{
+    width:100% ; 
+    min-height: 200px;
+    max-width: 400px; 
+}
+.address p, .phone p, .email p{
+    padding: 0px;
+    padding-left: 10px;
+}
+.phone table{
+    display: none;
+}
+.phone p{
+    display: block;
 }
