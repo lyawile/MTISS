@@ -115,7 +115,7 @@ and open the template in the editor.
                         <li>Qur’an</li>
 
                     </ul>
-                     <p>
+                    <p>
                         In addition, the school offers Islamic religion subjects (Quran and Islamic knowledge). 
                         More advantageous the school keeps emphasis on Quran Memorization program which upon the school completion, a student will have memorized a part or entire Quran.
                     </p>
@@ -133,37 +133,32 @@ and open the template in the editor.
                             <th>S/N</th>
                             <th>Fee Type</th>
                             <th>Amount</th>
-                            <th>Account-Bank</th>
+                            <th>Account Numbers </th>
 
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td>Tuition Fee and Accomodation(Boarding)</td>
-                            <td>1,300,000</td>
-                            <td>0347738833 - NMB</td>
+                            <td>Fees for Boarding Students</td>
+                            <td>1,200,000</td>
+                            <td rowspan="2">  
+                                <ol>
+                                    <li> <b>CRDB</b>  A/C No.  0150328705100</li>
+                                    <li> <b>NMB</b>  A/C  No.  70610000318</li>
+                                    <li> <b>NBC</b>   A/C  No.  034133000017</li>
+                                </ol>
 
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Tuition Fee (day)</td>
-                            <td>400,000</td>
-                            <td>0347738833 - NMB</td>
+                            </td>
 
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Stationery</td>
-                            <td>20,000</td>
-                            <td>0347738832 - NMB</td>
+                            <td>Fees for Day Students</td>
+                            <td>300,000</td>
+
 
                         </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Security</td>
-                            <td>15,000</td>
-                            <td>0347738832 - NMB</td>
 
-                        </tr>
+
                     </table>
                     </p>
                 </div>

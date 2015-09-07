@@ -86,11 +86,13 @@ nav{
 
 }
 .news{
+    position: relative;
     width: 315px;
     background-color: #ffffff;
     float: left;
     // min-height:300px;
     box-shadow: 0px 0px 1px black;
+    min-height: 300px;
 
 }
 .slider{
@@ -118,7 +120,9 @@ nav{
     text-align: justify;
 }
 .loadMore1{
-    position: relative;
+    position: absolute;
+    z-index: 5;
+    top:258px;
     width: 100%;
     height: 40px;
     bottom:0px;
@@ -291,6 +295,9 @@ nav{
 }
 .contact_us table{
     width: 100%;
+}
+.fees-table tr:first-child{
+    background-color: #bec6c6;
 }
 .contact_us textArea{
     width:400px ; 
