@@ -117,7 +117,7 @@ and open the template in the editor.
                     </ul>
                     <p>
                         In addition, the school offers Islamic religion subjects (Quran and Islamic knowledge). 
-                        More advantageous the school keeps emphasis on Quran Memorization program which upon the school completion, a student will have memorized a part or entire Quran.
+                        The school keeps emphasis on Quran Memorization program which upon the school completion, a student will have memorized a part or entire Quran.
                     </p>
                     </p>
                     <h3 class="page_headings" id="registration">Fees</h3>
@@ -139,7 +139,7 @@ and open the template in the editor.
                         <tr>
                             <td>1</td>
                             <td>Fees for Boarding Students</td>
-                            <td>1,200,000</td>
+                            <td>1,400,000</td>
                             <td rowspan="2">  
                                 <ol>
                                     <li> <b>CRDB</b>  A/C No.  0150328705100</li>
@@ -153,7 +153,7 @@ and open the template in the editor.
                         <tr>
                             <td>2</td>
                             <td>Fees for Day Students</td>
-                            <td>300,000</td>
+                            <td>500,000</td>
 
 
                         </tr>

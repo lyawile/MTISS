@@ -16,7 +16,7 @@
         <li><a  href="index.php">Home</a></li>
         <li><a  href="about.php">About Us</a></li>
         <li><a  href="contact_us.php"><span>Contact Us</span></a></li>
-        <li><a href="">Login</a></li>
+        <li><a href="login.php">Login</a></li>
     </ul>
     <ul id="menu-large">
         <li><a class="<?php echo $index; ?>" href="index.php">Home</a></li>

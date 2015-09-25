@@ -13,21 +13,18 @@
         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 637.5px; height: 300px;
             overflow: hidden;">
             <div>
-                <a href=""><img u=image src="./images/landscape/01.jpg" /></a>
-                <div u="thumb">Caption 1</div>
+                <img u=image src="./images/landscape/1.png" />
+                <div u="thumb">Learn practically</div>
             </div>
             <div>
-                <a href=""><img u=image src="./images/landscape/02.jpg" /></a>
-                <div u="thumb">Caption 2</div>
+                <img u=image src="./images/landscape/02.png" />
+                <div u="thumb">Favourable Environment for Learning</div>
             </div>
             <div>
-                <a href=""><img u=image src="./images/landscape/03.jpg" /></a>
-                <div u="thumb">Caption 3</div>
+                <a href="./docs/application_form_one 2016.pdf" target="_blank"><img u=image src="./images/landscape/03.png" /></a>
+                <div u="thumb">Categories of Subjects Offered at a School </div>
             </div>
-            <div>
-                <a href=""><img u=image src="./images/landscape/04.jpg" /></a>
-                <div u="thumb">Caption 4</div>
-            </div>
+            
         </div>
         
         <!--#region Thumbnail Navigator Skin Begin -->
