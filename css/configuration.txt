@@ -1,0 +1,5 @@
+Credentials:
+------------------
+user = 'necta_webuser';
+password = 'Webuser_2014';
+database = 'necta_webdb';

@@ -3,13 +3,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $fullName = $_POST['fullname'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $msg = wordwrap($message, 70). "\nsent by ". $email;
+    $msg = wordwrap($message, 70) . "\nsent by " . $email;
     $headers = "From: $fullName";
     $returnStatus = mail("webdev271@gmail.com", "From Visitor", $msg, $headers);
     if ($returnStatus === TRUE) {
-        $errors = '<span id="success_fail" style="color: green;">email was sent successfully</span>';
-    }
-    else  $errors = '<span id="success_fail" style="color: red;">email was not sent</span>';
+        $errors = '<span id="success_fail" style="color: green;">Email was successfully sent</span>';
+    } else
+        $errors = '<span id="success_fail" style="color: red;">Email was not sent</span>';
 }
 ?>
 <!DOCTYPE html>
@@ -88,32 +88,74 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1032.0529573284573!2d40.1886355!3d-10.3010789!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1434548377526" width="637" height="300" frameborder="0" style="border:0"></iframe>  
                 </div>
 
-                <div class="address">
-                    <h3>Address</h3>
-                    <p>Mmingano Street,</p>
-                    <p>Mtwara Municipality,</p>
-                    <p>Tanzania.</p>
-                </div>
-                <div class="phone">
-                    <h3>Phone</h3>
+
+                <div class="addresscapt">
                     <table>
                         <tr>
-                            <td>Head Master:</td><td>89800990990</td> 
-                        </tr>
-                        <tr>
-                            <td>Second Master:</td><td>80800990990</td>
-                        </tr>
-                        <tr>
-                            <td>Academic Master:</td><td>89800990990</td>
+                            <td><img src="./images/address.png"/></td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>Mmingano Street</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Mtwara Municipality,</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tanzania</td>
+                                    </tr>
+                                </table>
+                            </td>
                         </tr>
                     </table>
+
                 </div>
-                <div class="email">
-                    <h3>Email</h3>
-                    <p>headmaster@mtiss.ac.tz</p>
+                <div class="phonecapt">
+                    <table>
+                        <tr>
+                            <td><img src="./images/caption.png"/></td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>Head Master:</td><td>89800990990</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Second Master:</td><td>80800990990</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Academic Master:</td><td>89800990990</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
                 </div>
-                <div class="separator"></div>
-                <p><?php if(isset($errors)) echo $errors; else echo "If you have anything related to school, send a message to us through this form below:"; ?></p>
+                <div class="emailcapt">
+                    <table>
+                        <tr>
+                            <td><img src="./images/email.png"/></td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>Head master:</td><td>headmaster@mtiss.ac.tz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Second master:</td><td>headmaster@mtiss.ac.tz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Academic master:</td><td>headmaster@mtiss.ac.tz</td>
+                                    </tr>
+
+
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                <p><?php if (isset($errors)) echo $errors;
+            else echo "If you have anything related to school, send a message to us through this form below:"; ?></p>
                 <form class="contact_us" method="post" action="">
                     <table class="contact">
                         <tr><td>Full Name</td></tr>
@@ -127,7 +169,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </form>
             </div>
             <div class="separator"></div>
-            <?php include './includes/footer.php'; ?>
+<?php include './includes/footer.php'; ?>
             <div class="separator"></div>
 
         </div>

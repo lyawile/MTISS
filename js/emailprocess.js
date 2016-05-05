@@ -12,7 +12,7 @@ $(document).ready(function () {
             errors = true;
         }
         if (!filter.test(email) && email !== '') {
-            $('#email').after('<span class = "error" style =" color: red;margin-left: 5px;">Invalid email</span>');
+            $('#email').after('<span class = "error" style =" color: red;margin-left: 5px; font-style: italic;">Invalid email</span>');
             errors = true;
         }
         if (email === '') {
